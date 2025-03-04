@@ -1,17 +1,14 @@
 # Ignore sensitive config files
-.env
 # config/keys.js
 # config/multer-config.js
 # config/*.json
 
 # Ignore sensitive config files
-.env
 # config/key.js
 # config/mongoose-connection.js
 # config/*.json
 
 # Environment & Config Files
-.env
 # config.json
 # config/*.json
 
@@ -46,7 +43,6 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # env files (can opt-in for committing if needed)
-.env*
 
 # vercel
 .vercel
@@ -54,3 +50,4 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+config.bat
